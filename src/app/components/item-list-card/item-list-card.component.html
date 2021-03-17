@@ -1,0 +1,19 @@
+<div
+  class="card_container"
+  [ngClass]="{ green: item.amount >= 0, red: item.amount < 0 }"
+  (click)="onCardClick()"
+>
+  <div
+    class="card_description"
+    [ngClass]="{ green: item.amount >= 0, red: item.amount < 0 }"
+  >
+    <p>{{ item.description }}</p>
+  </div>
+  <div
+    class="card_amount"
+    [ngClass]="{ green: item.amount >= 0, red: item.amount < 0 }"
+  >
+    <p>{{ item.amount }}</p>
+  </div>
+  <button class="card_button" (click)="onDeleteButtonClick()">X</button>
+</div>

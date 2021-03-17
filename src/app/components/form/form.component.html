@@ -1,0 +1,21 @@
+<form #itemForm="ngForm" (ngSubmit)="onSubmit(itemForm)" class="add_item-form">
+  <div class="add_item-input-container">
+    <input
+      class="add_item-number_input"
+      type="number"
+      required
+      name="amount"
+      [(ngModel)]="item.amount"
+      placeholder="0"
+    />
+    <input
+      class="add_item-text_input"
+      type="text"
+      required
+      name="description"
+      [(ngModel)]="item.description"
+      placeholder="Enter text..."
+    />
+  </div>
+  <button class="add_item-button" [disabled]="!itemForm.valid">SUBMIT</button>
+</form>

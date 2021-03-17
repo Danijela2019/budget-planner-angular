@@ -1,0 +1,42 @@
+.item_list-section{
+    display:flex;
+    justify-content: center;
+  }
+.item_list-container {
+      width: 50%;
+     display: flex;
+     justify-content: space-between;
+     padding:1rem;
+}
+
+
+.item_list-income_header{
+    color:green;
+}
+.item_list-expenses_header{
+    color:red;
+}
+  
+.item_list-income_column,
+.item_list-expenses_column{
+    width:50%;
+    margin:1rem;
+}
+
+@media (max-width: 767px){
+    .item_list-container {
+        width: 100%;
+    }
+    .item_list-income_column,
+    .item_list-expenses_column{
+    width:100%;
+    }
+}
+@media (max-width: 467px){
+    .item_list-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}

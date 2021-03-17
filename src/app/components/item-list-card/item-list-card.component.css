@@ -1,0 +1,39 @@
+.card_container{
+    display:flex;
+    justify-content: space-between;
+    background:#dee0e6;
+    padding:10px;
+    width:100%;
+    height:50px;
+    border:1.5px solid; 
+    border-radius:5px;
+    cursor:pointer;
+    margin:1rem 0;
+}
+
+.green{
+    color:green;
+    border-color: green;
+}
+.red{
+    color:red;
+    border-color: red;
+}
+.card_amount{
+    background-color: whitesmoke;
+    padding:4px;
+    margin-left:5px;
+}
+.card_description{
+    display:flex; 
+}
+
+.card_button{
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #1ac0c6;
+  
+}

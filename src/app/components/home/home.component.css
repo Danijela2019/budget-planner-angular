@@ -1,0 +1,42 @@
+.home_header{
+    background:#1ac0c6;
+    color:whitesmoke;
+    padding:10px;
+    margin:0;
+}
+
+.budget_display{
+    background-color:#134e6f;
+    color: whitesmoke;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.budget_header{
+    font-size: 3rem;
+}
+.green{
+    color: #4ee74e;
+}
+.red{
+    color:red;
+}
+
+.add_item_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_item_container{
+  width: 50%;
+}
+@media (max-width:767px){
+    .add_item_container{
+        width: 100%;
+      }
+    .home_header{
+        font-size:1.5rem;
+    }
+}
