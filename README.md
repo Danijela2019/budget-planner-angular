@@ -7,5 +7,4 @@ A budget calculator application where the user is able to follow personal expens
 ## Features available:
 
 - **the user can add and remove expenses or income**
-- **the user can update expenses or income**
 - **positive or negative total amount is displayed at all times**
