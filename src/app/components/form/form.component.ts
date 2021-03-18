@@ -8,7 +8,6 @@ import { BudgetItem } from 'src/shared/models/budget-item.model';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-  //we can set a initial value here like this;
 @Input() item:BudgetItem = new BudgetItem("", null)
 @Output() formSubmit= new EventEmitter<BudgetItem>();
   constructor() { }
