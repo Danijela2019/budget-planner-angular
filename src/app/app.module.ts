@@ -8,9 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { FormComponent } from './components/form/form.component';
 import { ItemListComponent } from './components/item-list/item-list.component';
 import { ItemListCardComponent } from './components/item-list-card/item-list-card.component';
-import { EditModalComponent } from './components/edit-modal/edit-modal.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import{MatDialogModule} from '@angular/material/dialog';
+
+
 
 
 @NgModule({
@@ -20,14 +19,12 @@ import{MatDialogModule} from '@angular/material/dialog';
     FormComponent,
     ItemListComponent,
     ItemListCardComponent,
-    EditModalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule,
-    MatDialogModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
