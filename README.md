@@ -3,6 +3,7 @@
 A budget calculator application where the user is able to follow personal expenses build using Angular with TypeScript.The application is built as an exercise for cross-component communication using event and property binding. It will be updated with Angular Services in the future.
 
 ![Main page](budget.png)
+## Live demo availabe [here](https://danijela2019.github.io/budget-planner-angular/)
 
 ## Features available:
 
